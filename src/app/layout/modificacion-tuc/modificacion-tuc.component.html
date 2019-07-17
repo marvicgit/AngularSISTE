@@ -1,0 +1,31 @@
+<app-page-header [heading]="'Modificación TUC'" [icon]="'fa-edit'"></app-page-header>
+<ngb-tabset type="pills" justify="fill">
+    <ngb-tab>
+        <ng-template ngbTabTitle><b>Recibo</b></ng-template>
+        <ng-template ngbTabContent>
+            <p></p>
+            <app-recibo></app-recibo>
+        </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+        <ng-template ngbTabTitle><b>Vehiculo</b></ng-template>
+        <ng-template ngbTabContent>
+            <p></p>
+            <app-vehiculo></app-vehiculo>
+        </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+        <ng-template ngbTabTitle><b>Requisito</b></ng-template>
+        <ng-template ngbTabContent>
+            <p></p>
+            <app-requisito></app-requisito>
+        </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+        <ng-template ngbTabTitle><b>Fin</b></ng-template>
+        <ng-template ngbTabContent>
+            <p></p>
+            <app-fin></app-fin>
+        </ng-template>
+    </ngb-tab>
+</ngb-tabset>
