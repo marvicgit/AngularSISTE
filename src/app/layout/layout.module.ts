@@ -11,9 +11,10 @@ import { VehiculoComponent } from '../shared/modules/vehiculo/vehiculo.component
 import { RequisitoComponent } from '../shared/modules/requisito/requisito.component';
 import { FinComponent } from '../shared/modules/fin/fin.component';
 import { RenovacionTUCModule } from './renovacion-tuc/renovacion-tuc.module';
+import { RenovacionAutorizacionComponent } from './renovacion-autorizacion/renovacion-autorizacion.component';
 
 @NgModule({
-  declarations: [LayoutComponent, HeaderComponent, SidebarComponent],
+  declarations: [LayoutComponent, HeaderComponent, SidebarComponent, RenovacionAutorizacionComponent],
   imports: [
     CommonModule,
     LayoutRoutingModule,

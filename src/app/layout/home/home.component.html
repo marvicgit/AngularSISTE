@@ -95,7 +95,7 @@
 </div>
 <p></p>
 <div class="row">
-    <div class="col-lg-4">
+    <!-- <div class="col-lg-4">
         <div class="card">
             <div class="card-header">
                 <div class="row">
@@ -108,33 +108,37 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="col-lg-4">
-        <div class="card">
-            <div class="card-header">
-                <div class="row">
-                    <div class="col-xs-1">
-                        <i class="fa fa-clipboard fa-5x"></i>
-                    </div>
-                    <div class="col col-xs-10 text-left" style="padding: 10px;">
-                        <div class="d-block">SOLICITUD DE TRANSFERENCIA DE AUTORIZACIÓN</div>
+        <a [routerLink]="['/autorizacion']">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-xs-1">
+                            <i class="fa fa-clipboard fa-5x"></i>
+                        </div>
+                        <div class="col col-xs-10 text-left" style="padding: 10px;">
+                            <div class="d-block">SOLICITUD DE AUTORIZACIÓN</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
     <div class="col-lg-4">
-        <div class="card">
-            <div class="card-header">
-                <div class="row">
-                    <div class="col-xs-1">
-                        <i class="fa fa-clipboard fa-5x"></i>
-                    </div>
-                    <div class="col col-xs-10 text-left" style="padding: 10px;">
-                        <div class="d-block">SOLICITUD DE RENOVACIÓN DE AUTORIZACIÓN</div>
+        <a [routerLink]="['/autorizacion']">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-xs-1">
+                            <i class="fa fa-clipboard fa-5x"></i>
+                        </div>
+                        <div class="col col-xs-10 text-left" style="padding: 10px;">
+                            <div class="d-block">SOLICITUD DE RENOVACIÓN DE AUTORIZACIÓN</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 </div>
